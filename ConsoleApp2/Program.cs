@@ -17,7 +17,7 @@ namespace ConsoleApp2
         {
             var word = "hallo";
             var test = word.LastIndexOf('.');
-            var result = test.CompareTo(2);
+            var result = test.CompareTo(-1);
         }
     }
 }
